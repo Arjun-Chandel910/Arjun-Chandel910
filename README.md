@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/ArjunChand66194" target="blank"><img src="https://img.shields.io/twitter/follow/ArjunChand66194?logo=twitter&style=for-the-badge" alt="arjunchand66194" /></a> </p>
 
-- 🌱 I’m currently learning **React Native**
+- 🌱 I’m currently learning **Python**
 
 - 👯 I’m looking to collaborate on **full stack projects**
 
