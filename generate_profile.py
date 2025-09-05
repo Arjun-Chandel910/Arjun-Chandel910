@@ -5,30 +5,29 @@ import jinja2
 # Your GitHub username
 USERNAME = "arjun-chandel910"
 
-# --- Function to fetch the latest open-source contributions ---
-# This uses the GitHub API to find your recent public contributions
-def get_contributions(username):
+# --- Function to fetch the latest merged pull requests ---
+# This uses the GitHub API to find your recent merged PRs
+def get_merged_prs(username):
     headers = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
     query = """
     query($username: String!) {
       user(login: $username) {
-        repositories(
-          first: 5, 
-          orderBy: {field: PUSHED_AT, direction: DESC},
-          isFork: false,
-          ownerAffiliations: COLLABORATOR,
-          privacy: PUBLIC
+        pullRequests(
+          first: 5,
+          states: MERGED,
+          orderBy: {field: CREATED_AT, direction: DESC}
         ) {
           nodes {
-            name
-            description
+            title
             url
-            stargazerCount
-            forkCount
-            primaryLanguage {
-              name
-              color
+            repository {
+              nameWithOwner
+              primaryLanguage {
+                name
+                color
+              }
             }
+            createdAt
           }
         }
       }
@@ -40,7 +39,7 @@ def get_contributions(username):
         json={"query": query, "variables": variables},
         headers=headers
     )
-    return response.json().get("data", {}).get("user", {}).get("repositories", {}).get("nodes", [])
+    return response.json().get("data", {}).get("user", {}).get("pullRequests", {}).get("nodes", [])
 
 # --- Function to generate the animated SVG file ---
 def generate_svg(template_data):
@@ -49,14 +48,14 @@ def generate_svg(template_data):
     template = templateEnv.get_template("contribution_template.svg.j2")
     
     # Render the template with the fetched data
-    output = template.render(repos=template_data)
+    output = template.render(pull_requests=template_data)
     
     with open("contribution_card.svg", "w") as f:
         f.write(output)
 
 # --- Main script execution ---
 if __name__ == "__main__":
-    contributions = get_contributions(USERNAME)
-    generate_svg(contributions)
+    merged_prs = get_merged_prs(USERNAME)
+    generate_svg(merged_prs)
 
-    print("Successfully updated contribution_card.svg")
+    print("Successfully updated contribution_card.svg with merged PRs")

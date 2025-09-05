@@ -37,13 +37,25 @@
 
 ---
 
-<h2 align="center">My GitHub Stats & Contributions</h2>
+<h2 align="center">My GitHub Stats</h2>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=arjun-chandel910&show_icons=true&locale=en&theme=transparent" alt="Arjun's GitHub Stats" style="width: 100%; max-width: 500px;" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=arjun-chandel910&theme=transparent" alt="GitHub Streak" style="width: 100%; max-width: 500px;" />
 </div>
 
+<h2 align="center">Recent Merged Open-Source Contributions</h2>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/arjun-chandel910/arjun-chandel910/main/contribution_card.svg" alt="Open-Source Contributions" />
 </p>
+
+---
+
+<h2 align="center">What I'm Listening To</h2>
+
+<div align="center">
+  <a href="https://spotify-github-profile.vercel.app/api/now-playing?open=true&theme=dark" target="_blank">
+    <img src="https://spotify-github-profile.vercel.app/api/now-playing?theme=dark" alt="Spotify Now Playing" />
+  </a>
+</div>
