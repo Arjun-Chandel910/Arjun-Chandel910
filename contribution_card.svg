@@ -1,0 +1,75 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card-container {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      padding: 20px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #1f2833, #0b0c10);
+      color: #c5c6c7;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+    .card-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #66fcf1;
+      border-bottom: 2px solid #45a29e;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      animation: slideInLeft 1s ease-in-out;
+    }
+    .repo-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .repo-item {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #45a29e;
+      padding: 10px;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: slideInRight 1s ease-in-out;
+    }
+    .repo-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(102, 252, 241, 0.2);
+    }
+    .repo-name {
+      font-weight: bold;
+      color: #66fcf1;
+      text-decoration: none;
+    }
+    .repo-description {
+      font-size: 14px;
+      color: #a0a0a0;
+      margin-top: 5px;
+    }
+    .repo-stats {
+      font-size: 12px;
+      color: #888;
+      margin-top: 5px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideInLeft {
+      from { transform: translateX(-20px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes slideInRight {
+      from { transform: translateX(20px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+  </style>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="card-container">
+      <div class="card-title">Recent Open-Source Contributions</div>
+      <div class="repo-list">
+        
+      </div>
+    </div>
+  </foreignObject>
+</svg>
