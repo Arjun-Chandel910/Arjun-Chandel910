@@ -24,9 +24,8 @@
 </div>
 
 <p align="center">
-  <img src="https://yhype.me/api/github/profile?name=arjun-chandel910" alt="GitHub Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=arjun-chandel910&style=for-the-badge" alt="GitHub Profile Views" />
 </p>
-
 ---
 
 <h2 align="center">Languages & Tools</h2>
