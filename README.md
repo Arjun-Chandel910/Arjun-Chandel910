@@ -47,7 +47,7 @@
 <h2 align="center">Recent Merged Open-Source Contributions</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arjun-chandel910/arjun-chandel910/main/contribution_card.svg" alt="Open-Source Contributions" />
+  <img src="https://arjun-chandel910.pages.dev/contribution_card.svg" alt="Open-Source Contributions" />
 </p>
 
 ---

@@ -2,33 +2,38 @@ name: Update Profile README
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: "0 * * * *" # Run once every hour
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   update-readme:
+    name: Generate and Deploy SVG
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests jinja2
-      - name: Run script to generate dynamic content
+          pip install Jinja2 PyGithub
+
+      - name: Run script to generate SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python generate_profile.py
-      - name: Commit and push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add contribution_card.svg
-          git commit -m "feat: update dynamic profile content" || echo "No changes to commit"
-          git push
+          python generate_profile.py
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1.5.0
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: " arjun-chandel910"
+          directory: "."
