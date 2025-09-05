@@ -18,12 +18,12 @@
       margin-bottom: 15px;
       animation: slideInLeft 1s ease-in-out;
     }
-    .repo-list {
+    .pr-list {
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
-    .repo-item {
+    .pr-item {
       display: flex;
       flex-direction: column;
       border: 1px solid #45a29e;
@@ -32,24 +32,23 @@
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       animation: slideInRight 1s ease-in-out;
     }
-    .repo-item:hover {
+    .pr-item:hover {
       transform: translateY(-5px);
       box-shadow: 0 8px 12px rgba(102, 252, 241, 0.2);
     }
-    .repo-name {
+    .pr-name {
       font-weight: bold;
       color: #66fcf1;
       text-decoration: none;
     }
-    .repo-description {
+    .pr-info {
       font-size: 14px;
       color: #a0a0a0;
       margin-top: 5px;
     }
-    .repo-stats {
-      font-size: 12px;
-      color: #888;
-      margin-top: 5px;
+    .repo-link {
+        color: #45a29e;
+        font-style: italic;
     }
     @keyframes fadeIn {
       from { opacity: 0; }
@@ -66,8 +65,58 @@
   </style>
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml" class="card-container">
-      <div class="card-title">Recent Open-Source Contributions</div>
-      <div class="repo-list">
+      <div class="card-title">Recent Merged Contributions</div>
+      <div class="pr-list">
+        
+        <div class="pr-item">
+          <a href="https://github.com/balgovind866/Schoole_erp_system_api/pull/4" target="_blank" class="pr-name">added address_details , parent, and studentdocument models</a>
+          <div class="pr-info">
+            <span class="repo-link">in balgovind866/Schoole_erp_system_api</span>
+            
+              | Language: JavaScript
+            
+          </div>
+        </div>
+        
+        <div class="pr-item">
+          <a href="https://github.com/balgovind866/Schoole_erp_system_api/pull/2" target="_blank" class="pr-name">Arjun : added update and delete route for schools</a>
+          <div class="pr-info">
+            <span class="repo-link">in balgovind866/Schoole_erp_system_api</span>
+            
+              | Language: JavaScript
+            
+          </div>
+        </div>
+        
+        <div class="pr-item">
+          <a href="https://github.com/OfficialSahil548k/Auralis/pull/8" target="_blank" class="pr-name">fix( listings ): handle invalid/deleted IDs to prevent crash on direct access.</a>
+          <div class="pr-info">
+            <span class="repo-link">in OfficialSahil548k/Auralis</span>
+            
+              | Language: JavaScript
+            
+          </div>
+        </div>
+        
+        <div class="pr-item">
+          <a href="https://github.com/OfficialSahil548k/Auralis/pull/5" target="_blank" class="pr-name">fixed the review router by merging parent params into the child router.</a>
+          <div class="pr-info">
+            <span class="repo-link">in OfficialSahil548k/Auralis</span>
+            
+              | Language: JavaScript
+            
+          </div>
+        </div>
+        
+        <div class="pr-item">
+          <a href="https://github.com/OfficialSahil548k/Auralis/pull/3" target="_blank" class="pr-name">Image correction</a>
+          <div class="pr-info">
+            <span class="repo-link">in OfficialSahil548k/Auralis</span>
+            
+              | Language: JavaScript
+            
+          </div>
+        </div>
         
       </div>
     </div>
