@@ -1,30 +1,71 @@
 <h1 align="center">Hi 👋, I'm Arjun Chandel</h1>
-<h3 align="center">A passionate MERN developer from India</h3>
+<h3 align="center">MERN Developer | Always Building, Always Learning | From India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=arjun-chandel910&label=Profile%20views&color=0e75b6&style=flat" alt="arjun-chandel910" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arjun-chandel910" alt="arjun-chandel910" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/ArjunChand66194" target="blank"><img src="https://img.shields.io/twitter/follow/ArjunChand66194?logo=twitter&style=for-the-badge" alt="arjunchand66194" /></a> </p>
-
-- 🌱 I’m currently learning **Python**
-
-- 👯 I’m looking to collaborate on **full stack projects**
-
-- 📫 How to reach me **arjunchandel910@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/ArjunChand66194" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@arjunchandel66194" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/arjun-chandel-233219289/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="arjun chandel" height="30" width="40" /></a>
-<a href="https://www.instagram.com/arjunchandel_/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="arjunchandel_" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://twitter.com/ArjunChand66194" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/ArjunChand66194?logo=twitter&style=for-the-badge&color=0e75b6" alt="Arjun Chandel Twitter" />
+  </a>
+  <a href="https://linkedin.com/in/arjun-chandel-233219289/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Arjun Chandel LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/arjunchandel_/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Arjun Chandel Instagram" />
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
+<p align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=25C3E3&width=435&lines=A+passionate+MERN+developer;+I+build+scalable+web+applications;+Let's+build+something+great+together!" alt="Typing SVG" />
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=arjun-chandel910&show_icons=true&locale=en&layout=compact" alt="arjun-chandel910" /></p>
+<p align="left">
+  <a href="https://yhype.me">
+    <img src="https://yhype.me/api/github/profile?name=arjun-chandel910" alt="GitHub Profile Views" />
+  </a>
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arjun-chandel910&show_icons=true&locale=en" alt=" arjun-chandel910" /></p>
+<div align="center">
+  <p>🌱 I’m currently learning **Python** to expand my full-stack capabilities.</p>
+  <p>👯 I’m actively looking to collaborate on **innovative full-stack projects**, especially those using the MERN stack.</p>
+  <p>📫 How to reach me: **arjunchandel910@gmail.com**</p>
+</div>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arjun-chandel910&" alt="arjun-chandel910" /></p>
+---
+
+<h2 align="center">Skills & Tech Stack</h2>
+
+<p align="center">
+  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=bootstrap,cpp,css,express,html,java,javascript,mongodb,mysql,nodejs,react,reactnative" alt="Skills" />
+  </a>
+</p>
+
+---
+
+<h2 align="center">My GitHub Stats & Activity</h2>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=arjun-chandel910&show_icons=true&locale=en&theme=transparent" alt="Arjun's GitHub Stats" style="width: 100%; max-width: 500px;" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arjun-chandel910&theme=transparent" alt="GitHub Streak" style="width: 100%; max-width: 500px;" />
+</div>
+
+<br>
+
+<h2 align="center">Featured Projects</h2>
+
+<p align="center">
+  Here you should add links and descriptions to your key projects. For example:
+  <br><br>
+  - **Project Name:** A brief description of what the project does and its tech stack.
+    <br>
+    - [Live Demo](link-to-your-live-demo.com) | [Repository Link](https://github.com/arjun-chandel910/your-repo-name)
+</p>
+
+---
+
+<h2 align="center">What I'm Listening To</h2>
+
+<div align="center">
+  <a href="https://spotify-github-profile.vercel.app/api/now-playing?open=true&theme=dark" target="_blank">
+    <img src="https://spotify-github-profile.vercel.app/api/now-playing?theme=dark" alt="Spotify Now Playing" />
+  </a>
+</div>
