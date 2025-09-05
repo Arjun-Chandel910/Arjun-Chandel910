@@ -13,7 +13,7 @@ def get_merged_prs(username):
     query($username: String!) {
       user(login: $username) {
         pullRequests(
-          first: 5,
+          first: 10,  # Updated to fetch 10 pull requests
           states: MERGED,
           orderBy: {field: CREATED_AT, direction: DESC}
         ) {

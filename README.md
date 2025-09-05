@@ -52,8 +52,6 @@
 
 ---
 
-<h2 align="center">What I'm Listening To</h2>
-
 <div align="center">
   <a href="https://spotify-github-profile.vercel.app/api/now-playing?open=true&theme=dark" target="_blank">
     <img src="https://spotify-github-profile.vercel.app/api/now-playing?theme=dark" alt="Spotify Now Playing" />
